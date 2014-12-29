@@ -1,0 +1,14 @@
+[
+    {
+        "asignatura": "Análisis Matemático II",
+        "codigo": "61.03 - 81.01",
+        "repositorio": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2",
+        "pdf": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2/blob/master/Analisis%20matematico%20II.pdf?raw=true"
+    },
+    {
+        "asignatura": "Algebra II",
+        "codigo": "61.08 - 81.02",
+        "repositorio": "https://github.com/fiuba-apuntes/6108-8202-algebra2",
+        "pdf": "https://github.com/fiuba-apuntes/6108-8202-algebra2/blob/master/Algebra%20II.pdf?raw=true"
+    }
+]

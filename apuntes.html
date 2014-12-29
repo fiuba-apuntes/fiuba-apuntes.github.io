@@ -1,0 +1,13 @@
+---
+layout: page
+title: Los apuntes
+permalink: /apuntes/
+---
+
+<div class="page-content">
+    <ul>
+        {% for apunte in site.data.apuntes %}
+        <li>{{ apunte.codigo }} - {{ apunte.asignatura }} [<a href="{{ apunte.repositorio}}">repositorio</a>] [<a href="{{ apunte.pdf }}">PDF</a>]</li>
+        {% endfor %}
+    </ul>
+</div>
