@@ -4,10 +4,23 @@ title: Los apuntes
 permalink: /apuntes/
 ---
 
-<div class="page-content">
-    <ul>
+<div class="apuntes-page-content">
+
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr style="border-bottom: 2px solid #B4B5B0;">
+            <td>Código</td>
+            <td colspan="2">Asignatura</td>
+            <td></td>
+            <td></td>
+        </tr>
         {% for apunte in site.data.apuntes %}
-        <li>{{ apunte.codigo }} - {{ apunte.asignatura }} [<a href="{{ apunte.repositorio}}">repositorio</a>] [<a href="{{ apunte.pdf }}">PDF</a>]</li>
+        <tr style="border-bottom: 1px solid #B4B5B0;">
+            <td>{{ apunte.codigo }}</td>
+            <td colspan="2">{{ apunte.asignatura }}</td>
+            <td><a href="{{ apunte.repositorio}}">repositorio</a></td>
+            <td><a href="{{ apunte.pdf }}">PDF</a></td>
+        </tr>
         {% endfor %}
-    </ul>
+    </table>
+    
 </div>
