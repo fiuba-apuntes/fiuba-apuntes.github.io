@@ -17,4 +17,4 @@ Luego de clonar el repositorio, para poder colaborar en el sitio web debes cumpl
 
 3. Instalar las dependencias del proyecto. El proyecto posee un archivo `Gemfile` que incluye todas sus dependencias. Para instalarlas, se debe abrir un terminal, posicionarse en el directorio del proyecto (repositorio clonado) y ejecutar `bundle install`.
 
-4. Correr el sitio web en forma local. Para poder visualizar los cambios antes de subirlos al repositorio se debería probar en forma local. Para ello basta con ejecutar `jekyll server` y podremos visitar el sitio web en la URL `localhost:4000`. Prestar atención a los mensajes que imprime la terminal para verificar si no hubo algún error.
+4. Correr el sitio web en forma local. Para poder visualizar los cambios antes de subirlos al repositorio se debería probar en forma local. Para ello basta con ejecutar `jekyll server` y podremos visitar el sitio web en la URL `localhost:4000`. Prestar atención a los mensajes que imprime el terminal para verificar si no hubo algún error.
