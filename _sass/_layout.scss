@@ -21,6 +21,11 @@
     &:visited {
         color: $grey-color-dark;
     }
+    
+    img {
+        width: 200px;
+        height: auto;
+    }
 }
 
 .site-nav {
