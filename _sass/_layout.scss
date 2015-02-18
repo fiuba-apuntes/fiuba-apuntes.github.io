@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 1px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -23,7 +23,7 @@
     }
     
     img {
-        width: 200px;
+        width: 90%;
         height: auto;
     }
 }
@@ -167,7 +167,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    //padding: $spacing-unit 0;
 }
 
 .page-heading {

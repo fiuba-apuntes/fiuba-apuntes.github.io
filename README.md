@@ -18,3 +18,24 @@ Luego de clonar el repositorio, para poder colaborar en el sitio web debes cumpl
 3. Instalar las dependencias del proyecto. El proyecto posee un archivo `Gemfile` que incluye todas sus dependencias. Para instalarlas, se debe abrir un terminal, posicionarse en el directorio del proyecto (repositorio clonado) y ejecutar `bundle install`.
 
 4. Correr el sitio web en forma local. Para poder visualizar los cambios antes de subirlos al repositorio se debería probar en forma local. Para ello basta con ejecutar `jekyll server` y podremos visitar el sitio web en la URL `localhost:4000`. Prestar atención a los mensajes que imprime el terminal para verificar si no hubo algún error.
+
+## Foundation
+Para el diseño general del sitio se utilizó [Foundation](http://foundation.zurb.com).
+
+La forma en que se instaló es descargando el paquete completo de CSS y se colocaron manualmente en el proyecto.
+
+Los archivos y directorios que han sido añadido son los siguientes:
+
+```
+.
+├-- css/
+|   ├-- foundation.min.css
+|   └-- normalize.css
+|
+└-- js/
+    ├-- foundation/
+    ├-- vendor/
+    └-- foundation.min.js 
+```
+
+La versión utilizada actualmente se puede verificar en el archivo `foundation.min.css`
