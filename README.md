@@ -29,13 +29,12 @@ Los archivos y directorios que han sido añadido son los siguientes:
 ```
 .
 ├-- css/
-|   ├-- foundation.min.css
+|   ├-- foundation.css
 |   └-- normalize.css
 |
 └-- js/
-    ├-- foundation/
     ├-- vendor/
     └-- foundation.min.js 
 ```
 
-La versión utilizada actualmente se puede verificar en el archivo `foundation.min.css`
+La versión utilizada actualmente se puede verificar en el archivo `foundation.css`

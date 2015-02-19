@@ -1,20 +1,47 @@
 [
     {
-        "asignatura": "Análisis Matemático II",
-        "codigo": "61.03 - 81.01",
-        "repositorio": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2",
-        "pdf": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2/blob/master/Analisis%20matematico%20II.pdf?raw=true"
+        "departamento": "Departamento de Matemática",
+        "codigo": "61 - 81",
+        "codigo-interno": "cod61-81",
+        "apuntes": [
+            {
+                "asignatura": "Análisis Matemático II",
+                "codigo": "61.03 - 81.01",
+                "repositorio": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2",
+                "pdf": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2/blob/master/Analisis%20matematico%20II.pdf?raw=true"
+            },
+            {
+                "asignatura": "Algebra II",
+                "codigo": "61.08 - 81.02",
+                "repositorio": "https://github.com/fiuba-apuntes/6108-8102-algebra2",
+                "pdf": "https://github.com/fiuba-apuntes/6108-8102-algebra2/blob/master/Algebra%20II.pdf?raw=true"
+            }
+        ]
     },
     {
-        "asignatura": "Algebra II",
-        "codigo": "61.08 - 81.02",
-        "repositorio": "https://github.com/fiuba-apuntes/6108-8102-algebra2",
-        "pdf": "https://github.com/fiuba-apuntes/6108-8102-algebra2/blob/master/Algebra%20II.pdf?raw=true"
+        "departamento": "Departamento de Electrónica",
+        "codigo": "66 - 86",
+        "codigo-interno": "cod66-86",
+        "apuntes": [
+            {
+                "asignatura": "Procesos Estocásticos",
+                "codigo": "66.75",
+                "repositorio": "https://github.com/fiuba-apuntes/6675-Procesos_Estocasticos",
+                "pdf": "https://github.com/fiuba-apuntes/6675-Procesos_Estocasticos/blob/master/Procesos%20estocasticos.pdf?raw=true"
+            }
+        ]
     },
     {
-        "asignatura": "Procesos Estocásticos",
-        "codigo": "66.75",
-        "repositorio": "https://github.com/fiuba-apuntes/6675-Procesos_Estocasticos",
-        "pdf": "https://github.com/fiuba-apuntes/6675-Procesos_Estocasticos/blob/master/Procesos%20estocasticos.pdf?raw=true"
+        "departamento": "Departamento de Computación",
+        "codigo": "75 - 95",
+        "codigo-interno": "cod75-95",
+        "apuntes": [
+            {
+                "asignatura": "Taller de Programación I",
+                "codigo": "75.42 - 95.08",
+                "repositorio": "https://github.com/fiuba-apuntes/7542-9508-tallerdeprogramacion1",
+                "pdf": "https://github.com/fiuba-apuntes/7542-9508-tallerdeprogramacion1/raw/master/Taller%20de%20Programacion%20I.pdf"
+            }
+        ]
     }
 ]
