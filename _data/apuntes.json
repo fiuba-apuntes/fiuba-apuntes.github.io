@@ -11,6 +11,12 @@
                 "pdf": "https://github.com/fiuba-apuntes/6103-8101-analisismatematico2/blob/master/Analisis%20matematico%20II.pdf?raw=true"
             },
             {
+                "asignatura": "Matemática Discreta",
+                "codigo": "61.07 - 81.11",
+                "repositorio": "https://github.com/fiuba-apuntes/6107-8111-matematicadiscreta",
+                "pdf": "https://github.com/fiuba-apuntes/6107-8111-matematicadiscreta/raw/master/Matematica%20Discreta.pdf"
+            },
+            {
                 "asignatura": "Algebra II",
                 "codigo": "61.08 - 81.02",
                 "repositorio": "https://github.com/fiuba-apuntes/6108-8102-algebra2",
