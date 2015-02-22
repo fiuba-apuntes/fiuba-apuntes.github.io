@@ -16,9 +16,9 @@ layout: default
             <div id="{{ departamento.codigo-interno }}" class="content">
                 {% for apunte in departamento.apuntes %}
                 <div class="row">
-                    <div class="small-8 columns">{{ apunte.codigo }} &nbsp; {{apunte.asignatura}}</div>
-                    <div class="small-2 columns"><a href="{{ apunte.repositorio}}">repositorio</a></div>
-                    <div class="small-2 columns"><a href="{{ apunte.pdf }}">PDF</a></div>
+                    <div class="small-12 medium-8 columns">{{ apunte.codigo }} &nbsp; {{apunte.asignatura}}</div>
+                    <div class="small-6 medium-2 columns"><a href="{{ apunte.repositorio}}">repositorio</a></div>
+                    <div class="small-6 medium-2 columns"><a href="{{ apunte.pdf }}">PDF</a></div>
                 </div>
                 {% endfor %}
             </div>
