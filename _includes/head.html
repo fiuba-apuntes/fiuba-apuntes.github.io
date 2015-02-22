@@ -9,5 +9,9 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/foundation.css" />
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}" />
+    {% if page.custom_css %}
+    {% capture css_path %}{{ page.url | replace: '/', '' | replace: '.html', '' | prepend: '/css/' | append: '.css' }}{% endcapture %}
+    <link rel="stylesheet" href="{{ css_path }}" />
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 </head>
