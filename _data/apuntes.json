@@ -25,6 +25,19 @@
         ]
     },
     {
+        "departamento": "Departamento de Física",
+        "codigo": "62 - 82",
+        "codigo-interno": "cod62-82",
+        "apuntes": [
+            {
+                "asignatura": "Mecánica Racional",
+                "codigo": "62.11",
+                "repositorio": "https://github.com/fiuba-apuntes/6211-8204-mecanicaracional",
+                "pdf": "https://github.com/fiuba-apuntes/6211-8204-mecanicaracional/blob/master/Mecanica%20racional.pdf?raw=true"
+            }
+        ]
+    },
+    {
         "departamento": "Departamento de Electrónica",
         "codigo": "66 - 86",
         "codigo-interno": "cod66-86",
