@@ -21,6 +21,12 @@
                 "codigo": "61.08 - 81.02",
                 "repositorio": "https://github.com/fiuba-apuntes/6108-8102-algebra2",
                 "pdf": "https://github.com/fiuba-apuntes/6108-8102-algebra2/blob/master/Algebra%20II.pdf?raw=true"
+            },
+             {
+                "asignatura": "Análisis Matemático III A",
+                "codigo": "61.10 - 81.05",
+                "repositorio": "https://github.com/fiuba-apuntes/6110-8105-analisismatematico3a",
+                "pdf": "https://github.com/fiuba-apuntes/6110-8105-analisismatematico3a/blob/master/An%C3%A1lisis%20Matem%C3%A1tico%20III%20A.pdf?raw=true"
             }
         ]
     },
