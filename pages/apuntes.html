@@ -1,0 +1,28 @@
+---
+layout: page
+title: Apuntes
+permalink: /apuntes/
+custom_css: true
+---
+<p>En esta página podrás encontrar los apuntes digitalizados por FIUBA Apuntes</p>
+<p>Haciendo click sobre cada departamento, se desplegarán los apuntes correspondientes al mismo.</p>
+<p>En todos los casos, están disponibles tanto las descargas en formato .pdf como el enlace al repositorio del apunte en Github, en el cual podrán observar el código que genera el apunte y efectuar las ediciones que crean apropiadas.</p>
+
+    <ul class="accordion" data-accordion>
+        {% for departamento in site.data.apuntes %}
+        <li class="accordion-navigation">
+            <a href="#{{ departamento.codigo-interno }}">{{ departamento.codigo}} &nbsp; {{ departamento.departamento }}</a>
+            <div id="{{ departamento.codigo-interno }}" class="content">
+                {% for apunte in departamento.apuntes %}
+                <div class="row">
+                    <div class="small-12 medium-8 columns">{{ apunte.codigo }} &nbsp; {{apunte.asignatura}}</div>
+                    <div class="small-6 medium-2 columns"><a href="{{ apunte.repositorio}}">repositorio</a></div>
+                    <div class="small-6 medium-2 columns"><a href="{{ apunte.pdf }}">PDF</a></div>
+                </div>
+                {% endfor %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+

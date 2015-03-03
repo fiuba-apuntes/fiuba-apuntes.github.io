@@ -5,26 +5,28 @@ custom_css: true
 
 <div class="home">
 
-    <h1>FIUBA Apuntes</h1>
-    <p>FIUBA Apuntes nació con el objetivo de digitalizar los apuntes de las materias que andan rondando por los pasillos de FIUBA.</p>
-    <p>Además, queremos que cualquier persona sea libre de usarlos, corregirlos y mejorarlos.</p>
-
-    <h2>Los apuntes!</h2>
-    <ul class="accordion" data-accordion>
-        {% for departamento in site.data.apuntes %}
-        <li class="accordion-navigation">
-            <a href="#{{ departamento.codigo-interno }}">{{ departamento.codigo}} &nbsp; {{ departamento.departamento }}</a>
-            <div id="{{ departamento.codigo-interno }}" class="content">
-                {% for apunte in departamento.apuntes %}
-                <div class="row">
-                    <div class="small-12 medium-8 columns">{{ apunte.codigo }} &nbsp; {{apunte.asignatura}}</div>
-                    <div class="small-6 medium-2 columns"><a href="{{ apunte.repositorio}}">repositorio</a></div>
-                    <div class="small-6 medium-2 columns"><a href="{{ apunte.pdf }}">PDF</a></div>
-                </div>
-                {% endfor %}
-            </div>
-        </li>
-        {% endfor %}
+    <h2>Los apuntes de FIUBA, en formato digital.</h2> 
+    <h2>Hechos por y para todos.</h2>
+    <ul data-orbit>
+    <li data-orbit-slide="headline-1">
+        <div class="image">
+            <a href="{{site.baseurl}}/apuntes/"><img src="images/apuntes.png"></a>
+        </div>
+        <div class="orbit-caption">Descargá los apuntes disponibles.</div>
+    </li>
+    <li data-orbit-slide="headline-2">
+        <div>
+        <div class="image">
+            <a href="{{site.baseurl}}/acerca-del-proyecto/"><img src="images/about.png"></a>
+        </div>
+        </div>
+        <div class="orbit-caption">Conocé un poco más sobre el proyecto.</div>
+    </li>
+    <li data-orbit-slide="headline-2">
+        <div class="image">
+            <a href="{{site.baseurl}}/como-colaborar/"><img src="images/collab.png"></a>
+        </div>
+        <div class="orbit-caption">¿Cómo contribuir con el proyecto?</div>
+    </li>
     </ul>
-
 </div>
