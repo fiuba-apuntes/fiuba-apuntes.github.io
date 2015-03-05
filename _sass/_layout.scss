@@ -1,6 +1,7 @@
 /**
  * Site title
  */
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -59,6 +60,7 @@
         
         a {
             &:not(.button) {
+                font-family: "Droid Sans", sans-serif;
                 background-color: $topbar-background-color;
             }
             &:hover:not(.button) {
