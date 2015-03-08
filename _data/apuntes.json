@@ -14,7 +14,7 @@
                 "asignatura": "Matemática Discreta",
                 "codigo": "61.07 - 81.11",
                 "repositorio": "https://github.com/fiuba-apuntes/6107-8111-matematicadiscreta",
-                "pdf": "https://github.com/fiuba-apuntes/6107-8111-matematicadiscreta/raw/master/Matematica%20Discreta.pdf"
+                "pdf": "https://github.com/fiuba-apuntes/6107-8111-matematicadiscreta/raw/master/Matematica%20Discreta.pdf?raw=true"
             },
             {
                 "asignatura": "Algebra II",
@@ -62,10 +62,16 @@
         "codigo-interno": "cod75-95",
         "apuntes": [
             {
+                "asignatura": "Base de Datos",
+                "codigo": "75.15 - 95.05",
+                "repositorio": "https://github.com/fiuba-apuntes/7515-9505-basededatos",
+                "pdf": "https://github.com/fiuba-apuntes/7515-9505-basededatos/blob/master/Base%20de%20Datos.pdf?raw=true"
+            },
+            {
                 "asignatura": "Taller de Programación I",
                 "codigo": "75.42 - 95.08",
                 "repositorio": "https://github.com/fiuba-apuntes/7542-9508-tallerdeprogramacion1",
-                "pdf": "https://github.com/fiuba-apuntes/7542-9508-tallerdeprogramacion1/raw/master/Taller%20de%20Programacion%20I.pdf"
+                "pdf": "https://github.com/fiuba-apuntes/7542-9508-tallerdeprogramacion1/raw/master/Taller%20de%20Programacion%20I.pdf?raw=true"
             }
         ]
     }
