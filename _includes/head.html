@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/foundation.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}" />
     {% if page.custom_css %}
         {% capture css_path %}
@@ -16,7 +17,6 @@
         <link rel="stylesheet" href="{{ css_path }}" />
     {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" defer></script>
     <script type="text/javascript" src="/js/foundation.min.js" defer></script>
