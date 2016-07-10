@@ -10,6 +10,3 @@ url: "http://fiuba-apuntes.github.io/" # the base hostname & protocol for your s
 #twitter_username: jekyllrb
 github_username: fiuba-apuntes
 facebook_group: fiubaapuntes
-# Build settings
-markdown: kramdown
-highlighter: pygments
